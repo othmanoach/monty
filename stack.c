@@ -5,7 +5,6 @@
  * @counter: the line number
  * Return: nothing
 */
-
 void f_stack(stack_t **head, unsigned int counter)
 {
 	(void)head;
