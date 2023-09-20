@@ -3,7 +3,7 @@
  * f_div - dividing top two elements of the stack.
  * @head: the stack head
  * @counter: the line number
- * Return: void
+ * Return: nothing
 */
 void f_div(stack_t **head, unsigned int counter)
 {

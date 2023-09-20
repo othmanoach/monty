@@ -5,7 +5,7 @@
 * @counter: the line counter
 * @file: the poiner to monty file
 * @content: the line content
-* Return: void
+* Return: nothing
 */
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
