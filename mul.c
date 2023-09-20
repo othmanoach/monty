@@ -3,7 +3,7 @@
  * f_mul - multiplies the top of two elements of the stack.
  * @head: stack head
  * @counter: the line number
- * Return: nothing
+ * Return: void
 */
 void f_mul(stack_t **head, unsigned int counter)
 {
