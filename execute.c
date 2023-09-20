@@ -5,9 +5,8 @@
 * @counter: the line counter
 * @file: the poiner to monty file
 * @content: the line content
-* Return: nothing
+* Return: void
 */
-
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
 	instruction_t opst[] = {
