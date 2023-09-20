@@ -2,4 +2,3 @@
 
 ## Authors / Collaborators
 Othmane Achlouj || Marouane Lachheb
-*C#16*

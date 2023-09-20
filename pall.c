@@ -2,8 +2,8 @@
 /**
  * f_pall - printing the stack
  * @head: the stack head
- * @counter: !used
- * Return: lkhwa
+ * @counter: not used
+ * Return: nothing
 */
 void f_pall(stack_t **head, unsigned int counter)
 {
