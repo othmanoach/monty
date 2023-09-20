@@ -56,7 +56,11 @@ char  *clean_line(char *content);
 void f_push(stack_t **head, unsigned int number);
 void f_pall(stack_t **head, unsigned int number);
 void f_pint(stack_t **head, unsigned int number);
-int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
+/* Function declarations */
+void execute(char *content, stack_t **stack, unsigned int line_number, FILE *file);
+void push(stack_t **stack, int num);
+void pall(stack_t *stack);
+/*int execute(char *content, stack_t **head, unsigned int counter, FILE *file);*/
 void free_stack(stack_t *head);
 void f_pop(stack_t **head, unsigned int counter);
 void f_swap(stack_t **head, unsigned int counter);
